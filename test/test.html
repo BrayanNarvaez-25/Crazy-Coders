@@ -7,14 +7,20 @@
     <script src="serviciosTest.js"></script>
     <script src="test.js"></script>
     <script src="utilitarios.js"></script>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Ingrese su nombre:</h2>  
-    <input type="text" id="txtNombre">
-    <h2>Ingrese su apellido:</h2>
-    <input type="text" id="txtApellido">
-    <h4 id="lblResultado"> - - - - <h4>
-    <input type="button" value="SALUDAR" onclick="saludar()">
+    <div class="contenedor">
+        <div class="cajas">
+            <h2>Ingrese su nombre:</h2>  
+            <input type="text" id="txtNombre">
+            <h2>Ingrese su apellido:</h2>
+            <input type="text" id="txtApellido">
+        </div>
+        <div class="cajas">
+            <h4 id="lblResultado"> - - - - <h4>
+            <input type="button" value="SALUDAR" onclick="saludar()">
+        </div>
+    </div>
 </body>
 </html>

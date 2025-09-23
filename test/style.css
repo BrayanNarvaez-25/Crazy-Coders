@@ -1,0 +1,26 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(paisaje.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor{
+    display: grid;
+    place-items: center;
+    border: solid white;
+    border-radius: 15px;
+    text-align: center;
+    margin: 30vh 30vw auto 30vw;
+    background-image: linear-gradient(rgb(240, 141, 141),rgb(122, 122, 236));
+    transition: transform 0.3s ease;
+    
+}
+
+.contenedor:hover{
+    transform: translate(5px,-15px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
